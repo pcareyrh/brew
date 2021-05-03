@@ -1,0 +1,51 @@
+# https://github.com/Homebrew/homebrew-bundle
+# specify a directory to install
+cask_args appdir: '/Applications'
+# install packages
+tap 'caskroom/homebrew-cask' || true
+tap 'caskroom/versions' || true
+tap 'hashicorp/tap' || true
+brew 'git'
+brew 'bash-completion'
+brew 'tree'
+brew 'wget'
+brew 'htop'
+brew 'jq'
+brew '1password-cli'
+brew 'git-secrets'
+brew 'istat-menus'
+##brew 'terraform'
+brew install warrensbox/tap/tfswitch
+brew 'azure-cli'
+# Casks
+cask 'vlc'
+cask 'google-chrome'
+# cask 'firefox'
+# cask 'flux' #already in mac?
+# cask 'skype-for-business'
+cask 'virtualbox'
+cask 'slack'
+cask 'spotify'
+cask 'iterm2'
+cask 'google-drive'
+cask 'macdown' #markdown viewer
+cask 'bitwarden'
+cask 'visual-studio-code'
+cask 'zoom'
+cask '1password'
+cask 'rectangle'
+
+# for indigo theme
+# https://github.com/sergiokopplin/indigo
+# http://bundler.io/
+
+# A command to download mac store app
+# http://www.softantenna.com/wp/mac/mas-cli/
+# https://github.com/argon/mas
+tap 'argon/mas'
+brew 'mas'
+# run download_apps later on
+
+
+#Extra mouse side buttons for navigation
+#https://sensible-side-buttons.archagon.net/
