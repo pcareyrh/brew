@@ -5,7 +5,6 @@ cask_args appdir: '/Applications'
 tap 'caskroom/homebrew-cask' || true
 tap 'caskroom/versions' || true
 tap 'hashicorp/tap' || true
-tap 'hashicorp/security' || true
 brew 'git'
 brew 'bash-completion'
 brew 'tree'
@@ -14,8 +13,7 @@ brew 'htop'
 brew 'jq'
 brew '1password-cli'
 brew 'git-secrets'
-brew 'istat-menus'
-brew install hashicorp/security/doormat-cli
+##brew 'istat-menus'
 ##brew 'terraform'
 brew install warrensbox/tap/tfswitch
 brew 'azure-cli'
