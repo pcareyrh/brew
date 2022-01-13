@@ -15,7 +15,10 @@ brew '1password-cli'
 brew 'git-secrets'
 ##brew 'istat-menus'
 ##brew 'terraform'
-brew install warrensbox/tap/tfswitch
+brew 'warrensbox/tap/tfswitch'
+brew 'hashicorp/tap/sentinel'
+brew 'hashicorp/tap/boundary'
+brew 'hashicorp-boundary-desktop'
 brew 'azure-cli'
 # Casks
 cask 'vlc'
@@ -33,7 +36,16 @@ cask 'bitwarden'
 cask 'visual-studio-code'
 cask 'zoom'
 cask '1password'
-cask 'rectangle'
+cask 'rectangle' # Snap window to screen
+cask 'gpg-suite-no-mail'
+
+# Kube
+brew 'minikube'
+brew 'helm'
+brew 'kubectx'
+brew 'kubectl'
+brew 'krew'
+brew 'kube-ps1'
 
 # for indigo theme
 # https://github.com/sergiokopplin/indigo
